@@ -1,0 +1,9 @@
+@charset "UTF-8"
+body{
+        h1{
+           color:blueviolet;
+        }
+        p{
+            font-family: cursive;
+     }
+    }

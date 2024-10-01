@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+
+body{
+    background-color: burlywood;
+}
+h1{
+    color: blueviolet;
+}
+p{
+    font-size: 18pt;
+    color: darkmagenta;
+    text-align: justify;
+    font-family: cursive;
+
+}

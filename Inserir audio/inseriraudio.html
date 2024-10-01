@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="pt-br">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserir Áudio</title>
+</head>
+<body>
+    <h1>Inserindo Áudio</h1>
+
+    <p>
+        atributos da tag áudio
+        <br>
+        metadata: vai carregar as informações do áudio(tempo,nome,etc)
+        <br>
+        none: não vai carregar o áudio até que seja ativado
+    </p>
+    <h3>Áudio 1</h3>
+    <audio src="media/abertura2.mp3" preload="auto" controls></audio>
+
+    <h3>Áudio 2</h3>
+    <audio preload="metadata" controls loop>
+        <source src="media/abertura2.mp3" type="audio/mp3">
+        <source src="media/som.mp3" type="audio/mp3">
+    </audio>
+    
+</body>
+</html>
