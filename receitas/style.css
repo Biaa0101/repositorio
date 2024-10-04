@@ -5,17 +5,21 @@
     padding:0;
     box-sizing: border-box;
     font-family: cursive;
-}
-header h1{
-    color: #FAB4BF;
-    font-family: cursive;
     text-align: center;
 }
+header h1{
+    color: #C37EDB;
+    font-family: cursive;
+    font-size: 30px;
+    position: relative;
+    right: 450px;
+    bottom: -40px;
+}
 body{
-    background-color: #FFE2E8;
+    background-color: #f7d2da;
 }
 nav{
-    background-color: #FFD2C7;
+    background-color: #e8bcf7;
     text-align: center;
     font-weight: bold;
 }
@@ -24,37 +28,37 @@ nav ul{
     list-style: none;
 }
 nav ul li:hover{
-    background-color: #FFF1DD;
+    background-color: #AAECFC;
     border-radius: 10px;
 }
 nav ul li{
     width: 180px;
-    margin: 15px;
+    margin: 10px;
     padding: 15px;
- 
 }
 nav ul li a{
     text-decoration: none;
-    color: #DB92AF;
-    font-size: 23px;
+    color: #FC8DCA;
+    font-size: 25px;
     font-family: cursive;
+    text-align: center;
 }
 
 .sub-menu{
     display: none;
 }
 nav ul li:hover .sub-menu{
-    background-color: #F8FFB5;
+    background-color: #e8bcf7;
     display: block;
     position: absolute;
     margin-top: 13px;
-    margin-left: -29px;
+    margin-left: -25px;
     text-align: center;
 }
 
 nav ul li .sub-menu ul{
     display: block;
-    color: #DB92AF;
+    color: #FC8DCA;
     font-size: 20px;
     font-family: cursive;
 }
