@@ -3,6 +3,10 @@
     text-align: center;
     color: blueviolet;
 }
+.imagem{
+    display: inline-block;
+    margin: 10px;
+}
 *{
     margin: 0;
     padding:0;
@@ -80,6 +84,6 @@ nav ul li:hover .sub-menu ul li a{
 }
 
 div{
-    margin-left: -900px;
+    margin-left: -500px;
     margin-top: 150px;
 }
