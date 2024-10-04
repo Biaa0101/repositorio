@@ -1,5 +1,8 @@
 @charset "UTF-8";
-
+.container{
+    text-align: center;
+    color: blueviolet;
+}
 *{
     margin: 0;
     padding:0;
@@ -76,4 +79,7 @@ nav ul li:hover .sub-menu ul li a{
     transition: 0.7s;
 }
 
-
+div{
+    margin-left: -900px;
+    margin-top: 150px;
+}
