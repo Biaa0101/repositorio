@@ -27,6 +27,15 @@ header h1{
     margin-left: 10%;
     margin-top: 15px;
 }
+footer{
+    background-color:#e8bcf7;
+    color:purple;
+    text-align: center;
+    padding: 20px;
+    width:100%;
+    position: fixed;
+    bottom: 0;
+}
 body{
     background-color: #f7d2da;
 }
