@@ -2,10 +2,12 @@
 .container{
     text-align: center;
     color: blueviolet;
+    font-size: 20px;
 }
 .imagem{
     display: inline-block;
-    margin: 10px;
+    margin: 30px;
+    margin-top: 90px;
 }
 *{
     margin: 0;
@@ -14,10 +16,13 @@
     font-family: cursive;
     text-align: center;
 }
+header nav{
+    text-align: center;
+}
 header h1{
     color: #C37EDB;
     font-family: cursive;
-    font-size: 30px;
+    font-size: 25px;
     position: relative;
     right: 450px;
     bottom: -40px;
@@ -84,6 +89,5 @@ nav ul li:hover .sub-menu ul li a{
 }
 
 div{
-    margin-left: -500px;
-    margin-top: 150px;
+    justify-content: center;
 }
